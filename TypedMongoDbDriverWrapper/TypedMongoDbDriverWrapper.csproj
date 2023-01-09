@@ -5,13 +5,18 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
 
+	  <PackageId>Typed.MongoDb.Driver.Wrapper</PackageId>
+	  <Version>0.0.1</Version>
 	  <Authors>Michel Schlatter</Authors>
+	  <Company>The Software Company</Company>
+	  <Product>Typed.MongoDb.Driver.Wrapper</Product>
+	  <PackageLicenseExpression>MIT</PackageLicenseExpression>
+	  <Description>
+		  Typed.MongoDb.Driver.Wrapper is a typed wrapper around the official MongoDbDriver and provides a BaseRepository which covers the basic CRUD operations.
+		  See demo: https://github.com/michelschlatter/TypedMongoDbDriverWrapper.Demo
+	  </Description>
 	  <RepositoryUrl>https://github.com/michelschlatter/TypedMongoDbDriverWrapper</RepositoryUrl>
 	  <RepositoryType>https://github.com/michelschlatter/TypedMongoDbDriverWrapper</RepositoryType>
-	  <PackageLicenseExpression>MIT</PackageLicenseExpression>
-	  <PackageIcon>128.png</PackageIcon>
-	  <PackageIconUrl />
-	  <Version>0.0.1</Version>
   </PropertyGroup>
 
   <ItemGroup>
