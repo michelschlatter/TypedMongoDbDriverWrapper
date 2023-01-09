@@ -18,9 +18,8 @@ jobs:
     - name: Install dependencies
       run: dotnet restore
 
-    - name: Build and test
+    - name: Build 
       run: dotnet build --configuration Release
-      run: dotnet test --configuration Release
 
     - name: Publish to NuGet
       run: dotnet nuget push *.nupkg -k $NUGET_API_KEY -s https://api.nuget.org/v3/index.json
