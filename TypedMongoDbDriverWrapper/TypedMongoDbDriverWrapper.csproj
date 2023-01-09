@@ -4,6 +4,14 @@
     <TargetFramework>net7.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+
+	  <Authors>Michel Schlatter</Authors>
+	  <RepositoryUrl>https://github.com/michelschlatter/TypedMongoDbDriverWrapper</RepositoryUrl>
+	  <RepositoryType>https://github.com/michelschlatter/TypedMongoDbDriverWrapper</RepositoryType>
+	  <PackageLicenseExpression>MIT</PackageLicenseExpression>
+	  <PackageIcon>128.png</PackageIcon>
+	  <PackageIconUrl />
+	  <Version>0.0.1</Version>
   </PropertyGroup>
 
   <ItemGroup>
