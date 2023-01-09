@@ -119,11 +119,6 @@ namespace TypedMongoDbDriverWrapper
             return ObjectId.TryParse(id, out ObjectId objectId) && !objectId.Equals(ObjectId.Empty);
         }
 
-        public bool IsValidNotEmptyGuid(string guid)
-        {
-            return Guid.TryParse(guid, out Guid guidParsed) && !guidParsed.Equals(Guid.Empty);
-        }
-
         public bool IsNotEmptyId(ObjectId id)
         {
             return !id.Equals(ObjectId.Empty);

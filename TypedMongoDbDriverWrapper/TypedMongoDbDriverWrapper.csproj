@@ -6,7 +6,7 @@
     <Nullable>enable</Nullable>
 
 	  <PackageId>Typed.MongoDb.Driver.Wrapper</PackageId>
-	  <Version>0.0.1</Version>
+	  <Version>1.0.0</Version>
 	  <Authors>Michel Schlatter</Authors>
 	  <Company>The Software Company</Company>
 	  <Product>Typed.MongoDb.Driver.Wrapper</Product>

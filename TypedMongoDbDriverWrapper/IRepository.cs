@@ -19,11 +19,8 @@ namespace TypedMongoDbDriverWrapper
         public Task DeleteAsync(string id);
         public Task<long> CountAllAsync();
         public bool IsValidNotEmptyId(string id);
-        public bool IsValidNotEmptyGuid(string guid);
-
         public bool IsNotEmptyId(ObjectId id);
         public bool IsEmptyId(ObjectId id);
-
         public ObjectId GetEmptyId();
         public ObjectId GenerateId();
     }
